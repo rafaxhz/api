@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import CreateProductUseCase from "./CreateProductUseCase";
+import CreateProductUseCase from "./CreateProductUseCase.js";
 
 export default class CreateProductController {
   async handle(request: Request, response: Response) {

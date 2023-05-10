@@ -1,7 +1,7 @@
 import "express-async-errors";
 import express, { NextFunction, Request, Response } from "express";
-import database from "./database/prisma";
-import router from "./routes";
+import database from "./database/prisma.js";
+import router from "./routes.js";
 
 await database.$connect();
 

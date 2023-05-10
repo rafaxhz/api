@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import FindProductUseCase from "./FindProductUseCase";
+import FindProductUseCase from "./FindProductUseCase.js";
 
 export default class FindProductController {
   async handle(request: Request, response: Response) {

@@ -1,4 +1,4 @@
-import database from "../../database/prisma";
+import database from "../../database/prisma.js";
 
 interface IProductRequest {
   name: string;

@@ -1,4 +1,4 @@
-import database from "../../database/prisma";
+import database from "../../database/prisma.js";
 export default class ListProductsUseCase {
   async execute() {
     const productList = await database.products.findMany({});

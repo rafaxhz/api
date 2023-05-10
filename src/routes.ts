@@ -1,9 +1,9 @@
 import { Router } from "express";
 
-import CreateProductController from "./useCases/createProduct/CreateProductController";
-import DeleteProductController from "./useCases/deleteProduct/DeleteProductController";
-import FindProductController from "./useCases/findProduct/FindProductController";
-import ListProductsController from "./useCases/listProducts/ListProductsController";
+import CreateProductController from "./useCases/createProduct/CreateProductController.js";
+import DeleteProductController from "./useCases/deleteProduct/DeleteProductController.js";
+import FindProductController from "./useCases/findProduct/FindProductController.js";
+import ListProductsController from "./useCases/listProducts/ListProductsController.js";
 
 const router = Router();
 

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import DeleteProductUseCase from "./DeleteProductUseCase";
+import DeleteProductUseCase from "./DeleteProductUseCase.js";
 
 export default class DeleteProductController {
   async handle(request: Request, response: Response) {
